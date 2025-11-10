@@ -31,9 +31,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void _sayHello() {
     if (name.isEmpty) {
       // Ini bug potensial karena variabel name bisa kosong
-      print("Nama kosong!");
+      debugPrint("Nama kosong!");
     } else {
-      print("Halo $name");
+      debugPrint("Halo $name");
     }
   }
 
